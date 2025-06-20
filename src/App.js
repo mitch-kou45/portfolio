@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Hero from './components/hero';
-import Header from './components/header';
+import Hero from './components/hero/hero';
+import Navbar from './components/header/navbar';
+import Projects from './components/projects/projects';
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
       <Hero />
+      <Projects />
     </div>
   );
 }
